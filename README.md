@@ -1,11 +1,9 @@
 # emkt-generator
 
-----
 ## emkt-generator?
 
 > emkt-generator is a abbreviation to *email marketing generator*.
 
-----
 ## Why?
 
 > Beause i'm tired to write css inline for email platforms.
