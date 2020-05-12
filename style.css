@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* 
+*** HELPERS
+*/
+
+.w125 {width: 125px;}
+
+.mb8 {margin-bottom: 8px;}
+.mb16 {margin-bottom: 16px;}
+.mb32 {margin-bottom: 32px;}
+.mb40 {margin-bottom: 40px;}
+.mb48 {margin-bottom: 48px;}
+
+.pb20 {padding-bottom: 20px;}
+
+/* 
+*** COLORS
+*/
+
+.orange {color: #F37432;}
+.blackLight {color: #343637;}
+.grey500 {color: #6B6B6B;}
+
+/* 
+*** TYPOGRAPHY
+*/
+
+.headingXXSmall {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.headingXSmall{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.paragraphSmall {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.paragraphMedium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.paragraphXSmall {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.displayXSmall {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.labelSmall {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.labelXSmal {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}

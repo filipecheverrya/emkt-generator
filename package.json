@@ -1,0 +1,17 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fripley <filipecheverrya@gmail.com> (http://fripley.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.1.0",
+    "gulp-inline-css": "^3.5.0"
+  }
+}
