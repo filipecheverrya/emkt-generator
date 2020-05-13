@@ -1,8 +1,9 @@
-var gulp = require('gulp');
-var image = require('gulp-image');
-var inlineCss = require('gulp-inline-css');
+const gulp = require('gulp');
+const image = require('gulp-image');
+const inlineCss = require('gulp-inline-css');
+const fileinclude = require('gulp-file-include');
 
-var folder = 'cl-donate';
+const folder = 'cl-donate';
 
 gulp.task('default', async function () {
   await gulp.src('./src/img/*')
@@ -10,6 +11,10 @@ gulp.task('default', async function () {
     .pipe(gulp.dest('build/img'));
 
   await gulp.src(`./src/${folder}/*.html`)
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
     .pipe(inlineCss())
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest(`build/${folder}/`));
 });
