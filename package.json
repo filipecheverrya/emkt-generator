@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "fripley <filipecheverrya@gmail.com> (http://fripley.github.io)",
+  "author": "filipecheverrya <filipecheverrya@gmail.com> (http://filipecheverrya.github.io)",
   "license": "ISC",
   "dependencies": {
     "gulp": "^4.0.2",
