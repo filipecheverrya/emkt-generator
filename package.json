@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
+    "build": "gulp NODE_PARAM=process.argv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,6 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.2.2",
-    "gulp-image": "^6.1.0",
     "gulp-inline-css": "^3.5.0"
   }
 }
